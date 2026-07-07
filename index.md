@@ -1,13 +1,6 @@
 ---
 layout: null
 ---
-# Full Environment Dump
-
-## Jekyll Version
-{{ jekyll.version }}
-
-## Jekyll Environment
+# Check
 {{ jekyll.environment }}
-
-## Site Config
-{{ site | jsonify }}
+{{ site.github.build_revision }}
