@@ -1,0 +1,5 @@
+# If safe mode is truly disabled, this should execute
+rce: !ruby/object:ERB
+  src: "`id > /tmp/yaml_rce.txt; echo PWNED`"
+  safe_level: 
+canary: "SAFE_BYPASS_TEST"
