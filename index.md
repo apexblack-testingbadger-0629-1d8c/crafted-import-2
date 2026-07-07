@@ -1,5 +1,4 @@
 ---
 layout: null
 ---
-# Jekyll.rb include test
-Content: {% include jekyllrb %}
+# Symlink static file test
